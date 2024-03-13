@@ -1,0 +1,176 @@
+@import url('https://fonts.cdnfonts.com/css/cocosharp-trial');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'CocoSharp Trial', sans-serif;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.dspl-flx {
+    display: flex;
+}
+
+.container {
+    height: max-content;
+    width: 73rem;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+header nav {
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 25px;
+}
+
+.link-items ul {
+    list-style: none;
+    align-items: center;
+}
+
+.link-items ul li {
+    padding: 0 12px;
+    font-size: 12px;
+}
+
+nav .nav-btns {
+    height: 40px;
+}
+
+nav .nav-btns .btn {
+    height: 40px;
+    color: white;
+    background-color: #313131;
+    font-size: 12px;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+}
+
+nav .nav-btns .btn1 {
+    width: 100px;
+}
+
+nav .nav-btns .btn2 {
+    width: 40px;
+}
+
+#section1 {
+    height: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section1 ul li {
+    font-size: 18px;
+}
+
+#section1 .number {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+
+#section2 {
+    height: 450px;
+    background-color: #FF6400;
+    border-radius: 10px;
+    display: flex;
+}
+
+#section2 img {
+    height: 400px;
+    margin: 50px 0 0 80px;
+}
+
+#section2 .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 70px;
+    text-align: start;
+}
+
+#section2 .banner h1 {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+#section2 .banner h3 {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+#section2 .banner button {
+    border: 1px solid white;
+    padding: 16px 25px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#section3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#section3 .card {
+    height: 300px;
+    width: 270px;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#section3 h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#section3 h2 {
+    color: #FF6400;
+    font-size: 52px;
+}
+
+#section3 h3 {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+#section3 button {
+    background-color: #FF6400;
+    padding: 10px 45px;
+    border: transparent;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
